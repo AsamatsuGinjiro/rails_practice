@@ -3,12 +3,15 @@
 #bundler インストール
 
 $cd HOME/dir ⇦ この階層の前に作るやつ
+
 $gem install bundler
+
 $bundle init
 
 #Gemfile の # gem "rails" の#を外す
 
 #gem "rails"　のパッケージインストール
+
 $bundle install vender/bundle
 
 以上 👍
