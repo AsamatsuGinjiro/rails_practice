@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @weight_histry.user_id %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @weight_histry.weight %>
+</p>
+
+<p>
+  <strong>Memo:</strong>
+  <%= @weight_histry.memo %>
+</p>
+
+<%= link_to 'Edit', edit_weight_histry_path(@weight_histry) %> |
+<%= link_to 'Back', weight_histries_path %>
